@@ -14,7 +14,7 @@ ML1 In-Class
 
 # %%
 # import packages
-from turtle import color
+# from turtle import color
 from pydataset import data
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -30,7 +30,18 @@ iris.head()
 
 # %%
 # What mental models can we see from these data sets?
+# A mental model that we can see from these data set is
+# that there are different species of iris flowers that can be
+# classified based on their sepal and petal dimensions.
+# Another mental model is that the dimensions of the flowers
+# can be used to predict the species of the flower.
+
 # What data science questions can we ask?
+# Some data science questions that we can ask from these data set are:
+# 1. Can we classify the species of iris flowers based on their
+#    sepal and petal dimensions?
+# 2. What are the key features that differentiate the species of
+#    iris flowers?
 
 # %%
 """
@@ -94,9 +105,26 @@ Mild disclaimer
 # For now, ask yourself:
 
 # 1. What is the purpose of data splitting?
+# Data splitting allows us to create separate datasets for training 
+# and testing our model. This helps us to evaluate how well the model
+# performs and therefore how well it can be generalized.
+
 # 2. What can we learn from data testing/validation?
+# Data testing/validation helps us to assess the performance
+# of our model on unseen data. It provides insights into the model's
+# accuracy, robustness, and ability to generalize to new data.
+
 # 3. How do we know if a model is working?
+# We can compare the model's predictions to a certain baseline
+# (e.g., random guessing or majority class prediction) to see if
+# it is performing better than that baseline. Also, examining the error
+# rate on the test data can help us determine if the model is working.
+
 # 4. How could we find the model error?
+# We can find the model error by assesing the rate of incorrect predictions
+# made by the model on the test data.
 
 # If you want, try changing the size of the test data
 # or the number of n_neighbors and see what changes!
+
+# %%

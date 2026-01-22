@@ -9,10 +9,10 @@ Key Points to Cover
 * Data to Concept
 
 Read through the case study and then discuss the problem as a group then address these questions below: 
-* What problems are facing the organization?  
+* What problem is the organization trying to solve? 
+* What issues are they facing trying to solve this problem?
 * What is the target variable and what type (reg or class) of solution are they developing? 
 * How would they know the solution was working (business metric)?
-* What other issues might the team be facing? 
 
 Work through the following Data to Concept and Learning:
   * How difficult is the data to gather?
